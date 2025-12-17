@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0426094-4abb-4233-843d-4bf6b69ab269" name="Changes" comment="add index.html" />
+    <list default="true" id="c0426094-4abb-4233-843d-4bf6b69ab269" name="Changes" comment="Р" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +136,23 @@
       <option name="project" value="LOCAL" />
       <updated>1765998785625</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add index.html">
+      <option name="closed" value="true" />
+      <created>1765999051304</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1765999051304</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Р">
+      <option name="closed" value="true" />
+      <created>1765999135524</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1765999135524</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +168,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="add index.html" />
+    <MESSAGE value="Р" />
+    <option name="LAST_COMMIT_MESSAGE" value="Р" />
   </component>
 </project>

@@ -1,32 +1,209 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OtakuHub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-            <header>
-        <div class="logo">
-            <img src="img/logo.png" alt="logo">
+    <header>
+        <button class="menu-toggle" id="menuToggle">
+            <i class="fas fa-bars"></i>
+        </button>
+        <a href="#" class="logo">
+            <i class="fas fa-play-circle logo-icon"></i>
+            <span class="logo-text">OtakuHub</span>
+        </a>
+        
+        <!-- Поиск по аниме -->
+        <div class="search-container">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" class="search-input" placeholder="Поиск аниме...">
+            <div class="search-results" id="searchResults"></div>
         </div>
-        <nav>
-            <a href="">Главная</a>
-            <a href="">Избранное</a>
-            <a href="">Профиль</a>
-        </nav>
+        
+        <div class="nav-links">
+            <a href="#" class="active"><i class="fas fa-home"></i> <span class="nav-text">Главная</span></a>
+            <a href="#"><i class="fas fa-fire"></i> <span class="nav-text">Популярное</span></a>
+            <a href="#"><i class="fas fa-list"></i> <span class="nav-text">Каталог</span></a>
+            <a href="#"><i class="fas fa-calendar-alt"></i> <span class="nav-text">Расписание</span></a>
+            
+            <div class="profile">
+                <div class="profile-img">AK</div>
+                <span class="profile-name">Алексей К.</span>
+            </div>
+        </div>
     </header>
 
-    <main>
-        <p>asd</p>
-    </main>
+    <!-- Основной контент -->
+    <div class="content-wrapper">
+        <!-- Сайдбар -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-profile">
+                <div class="sidebar-profile-img">AK</div>
+                <div class="sidebar-profile-name">Алексей К.</div>
+                <div class="sidebar-profile-level">Премиум аккаунт</div>
+            </div>
+            
+            <ul class="sidebar-menu">
+                <li><a href="#" class="active"><i class="fas fa-user"></i> Мой профиль</a></li>
+                <li><a href="#"><i class="fas fa-bookmark"></i> Закладки</a></li>
+                <li><a href="#"><i class="fas fa-history"></i> История просмотров</a></li>
+                <li><a href="#"><i class="fas fa-heart"></i> Избранное</a></li>
+                <li><a href="#"><i class="fas fa-tv"></i> Смотрю сейчас</a></li>
+                <li><a href="#"><i class="fas fa-cog"></i> Настройки</a></li>
+            </ul>
+        </aside>
 
-    <footer>
-        <p>asdasd</p>
-    </footer>
+        <!-- Основной контент -->
+        <main class="main-content">
+            <!-- Герой-секция с заголовком как на изображении -->
+            <section class="hero-section">
+                <h1 class="hero-title">Король изгоев из другого мира</h1>
+                <p class="hero-subtitle">Аниме от которого кровь закипает в жилах!</p>
+                <p class="hero-subtitle">Посмотрите скорее чуваши</p>
+                <hr class="hero-divider">
+            </section>
+
+            <!-- Популярное аниме -->
+            <section class="popular-section">
+                <div class="section-header">
+                    <h2 class="section-title">Популярное аниме</h2>
+                    <a href="#" class="see-all">Смотреть все →</a>
+                </div>
+                
+                <div class="anime-list">
+                    <!-- Новые аниме -->
+                    <div class="anime-item new">
+                        <div class="anime-cover-small" style="background-image: url('https://images.unsplash.com/photo-1511988617509-a57c8a288659?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                        <div class="anime-info-small">
+                            <div class="anime-title-small">Новое аниме 1</div>
+                            <div class="anime-meta-small">2023 • 12 эп.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="anime-item new">
+                        <div class="anime-cover-small" style="background-image: url('https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                        <div class="anime-info-small">
+                            <div class="anime-title-small">Новое аниме 2</div>
+                            <div class="anime-meta-small">2023 • 24 эп.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="anime-item new">
+                        <div class="anime-cover-small" style="background-image: url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                        <div class="anime-info-small">
+                            <div class="anime-title-small">Новое аниме 3</div>
+                            <div class="anime-meta-small">2023 • 10 эп.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="anime-item new">
+                        <div class="anime-cover-small" style="background-image: url('https://images.unsplash.com/photo-1551029506-0807df4e2031?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                        <div class="anime-info-small">
+                            <div class="anime-title-small">Новое аниме 4</div>
+                            <div class="anime-meta-small">2023 • 13 эп.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="anime-item new">
+                        <div class="anime-cover-small" style="background-image: url('https://images.unsplash.com/photo-1489599809516-9827b6d1cf13?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                        <div class="anime-info-small">
+                            <div class="anime-title-small">Новое аниме 5</div>
+                            <div class="anime-meta-small">2023 • 26 эп.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="anime-item new">
+                        <div class="anime-cover-small" style="background-image: url('https://images.unsplash.com/photo-1542204165-65bf26472b9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                        <div class="anime-info-small">
+                            <div class="anime-title-small">Новое аниме 6</div>
+                            <div class="anime-meta-small">2023 • 8 эп.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="anime-item new">
+                        <div class="anime-cover-small" style="background-image: url('https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                        <div class="anime-info-small">
+                            <div class="anime-title-small">Новое аниме 7</div>
+                            <div class="anime-meta-small">2023 • 16 эп.</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Другое популярное аниме -->
+            <section class="popular-section">
+                <div class="section-header">
+                    <h2 class="section-title">Популярное аниме</h2>
+                    <a href="#" class="see-all">Смотреть все →</a>
+                </div>
+                
+                <div class="anime-list">
+                    <!-- Известные аниме -->
+                    <div class="anime-item">
+                        <div class="anime-cover-small" style="background-image: url('https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                        <div class="anime-info-small">
+                            <div class="anime-title-small">Поднятие уровня в одиночку</div>
+                            <div class="anime-meta-small">2020 • 24 эп.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="anime-item">
+                        <div class="anime-cover-small" style="background-image: url('https://images.unsplash.com/photo-1541562232579-512a21360020?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                        <div class="anime-info-small">
+                            <div class="anime-title-small">Истребитель демонов</div>
+                            <div class="anime-meta-small">2019 • 26 эп.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="anime-item">
+                        <div class="anime-cover-small" style="background-image: url('https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                        <div class="anime-info-small">
+                            <div class="anime-title-small">Магическая битва</div>
+                            <div class="anime-meta-small">2020 • 24 эп.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="anime-item">
+                        <div class="anime-cover-small" style="background-image: url('https://images.unsplash.com/photo-1542204165-65bf26472b9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                        <div class="anime-info-small">
+                            <div class="anime-title-small">Магическая битва</div>
+                            <div class="anime-meta-small">2020 • 24 эп.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="anime-item">
+                        <div class="anime-cover-small" style="background-image: url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80');"></div>
+                        <div class="anime-info-small">
+                            <div class="anime-title-small">Восхождение героя цита</div>
+                            <div class="anime-meta-small">2013 • 25 эп.</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Истории твоего аниме-года -->
+            <section class="stories-section">
+                <h2 class="stories-title">Истории твоего аниме-года</h2>
+                <p class="stories-description">Просматривайте сторис: марафоны и топовые аниме, дарившие вам эмоции.</p>
+                <a href="#" class="login-button">Войти и смотреть</a>
+            </section>
+        </main>
     </div>
- </div>
+
+    <!-- Футер -->
+    <footer>
+        <p>© 2026 OtakuHub. Все права защищены. Все аниме представлены исключительно в ознакомительных целях.</p>
+        <p style="margin-top: 10px;">
+            <a href="#" style="color: var(--gray); margin: 0 10px;">Пользовательское соглашение</a> | 
+            <a href="#" style="color: var(--gray); margin: 0 10px;">Политика конфиденциальности</a> | 
+            <a href="#" style="color: var(--gray); margin: 0 10px;">Обратная связь</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
- 

@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0426094-4abb-4233-843d-4bf6b69ab269" name="Changes" comment="Р">
-      <change beforePath="$PROJECT_DIR$/php/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/php/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/src/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/src/registration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/src/helpers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/src/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/src/registration.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766181817347</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Р">
+      <option name="closed" value="true" />
+      <created>1766184797224</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1766184797224</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

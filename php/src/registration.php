@@ -1,5 +1,7 @@
 <?php
 
+require_once __DIR__ . '/helpers.php';
+
 // получение данных из формы регистрации
 
 $login = $_POST['login'];

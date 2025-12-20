@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0426094-4abb-4233-843d-4bf6b69ab269" name="Changes" comment="Р">
-      <change afterPath="$PROJECT_DIR$/php/src/helpers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/src/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/src/helpers.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/src/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/src/registration.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="forum" />
+        <entry key="$PROJECT_DIR$" value="auth" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -135,6 +136,7 @@
       <option name="presentableId" value="Default" />
       <updated>1765949206795</updated>
       <workItem from="1766179685936" duration="3353000" />
+      <workItem from="1766227935147" duration="2317000" />
     </task>
     <task id="LOCAL-00001" summary="add index.html">
       <option name="closed" value="true" />
@@ -288,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766184797224</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Р">
+      <option name="closed" value="true" />
+      <created>1766185209798</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1766185209798</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

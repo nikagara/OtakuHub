@@ -9,4 +9,12 @@ $password = $_POST['password'];
 
 // запись данных в бд
 
-echo'getDB';
+$connect = getDB();
+
+$sql = "INSERT INTO `users` (login, pfssword) VALUES ('$login', '$password')";
+
+if ($connect -> query($sql) === TRUE) {
+     echo 'Регистрация прошла успешно!';
+} else {
+    echo 'Данный пользователь уже зарегистрирован :(';
+}

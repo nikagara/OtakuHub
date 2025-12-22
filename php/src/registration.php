@@ -9,4 +9,4 @@ $password = $_POST['password'];
 
 // запись данных в бд
 
-print_r(getDB());
+echo'getDB';

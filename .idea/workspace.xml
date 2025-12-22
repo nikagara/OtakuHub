@@ -48,6 +48,7 @@
     &quot;accountId&quot;: &quot;8295bb00-5926-4f1f-a4da-f770accd9999&quot;
   }
 }</component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="$PROJECT_DIR$/../../../ttttt/php.exe" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -134,7 +135,9 @@
       <option name="presentableId" value="Default" />
       <updated>1765949206795</updated>
       <workItem from="1766179685936" duration="3353000" />
-      <workItem from="1766227935147" duration="4215000" />
+      <workItem from="1766227935147" duration="4484000" />
+      <workItem from="1766331274496" duration="1000" />
+      <workItem from="1766331885389" duration="970000" />
     </task>
     <task id="LOCAL-00001" summary="add index.html">
       <option name="closed" value="true" />
@@ -312,7 +315,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766230400319</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Р">
+      <option name="closed" value="true" />
+      <created>1766232863468</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1766232863468</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
